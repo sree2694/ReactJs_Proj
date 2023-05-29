@@ -1,10 +1,11 @@
 import './App.css';
-import { PDFGenerator } from './components/PDFGenerator';
+import PDFGenerator from './components/PDFGenerator';
+
 
 function App() {
   return (
     <div className="App">
-    <PDFGenerator />
+    <PDFGenerator/>
   </div>
   );
 }

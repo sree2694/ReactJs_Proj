@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.page {
+  page-break-after: always;
+}
+
+.page-content-container {
+  height: calc(100vh - 180px); /* Adjust the height based on your header and footer height */
+  overflow: auto;
+}
+
+.page-content {
+  padding: 10px;
+}
+
