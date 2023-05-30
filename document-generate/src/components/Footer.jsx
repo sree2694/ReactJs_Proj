@@ -15,7 +15,8 @@ const Footer = () => {
         justifyContent: 'center',
         backgroundColor: '#f0f0f0',
       }}
-    ><br/>
+    >
+      <br />
       <Typography variant="body1">Company Address</Typography>
     </Box>
   );
